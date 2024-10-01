@@ -1,12 +1,15 @@
 .s1{
     background-color: rgb(245, 240, 230); 
     display: inline-block;
+    max-width: 100%;
+    font-size: 35px;
 }
 .s2{
     background-image: url(https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg);
     color: white;
     display: grid;
-
+    max-width: 100%;
+    font-size: 35px;
 }
 
 .s1 img{
@@ -22,7 +25,6 @@
     display: inline-grid;
     column-gap: 25px;
     grid-template-columns: repeat(4, 1fr);
-
 }
 
 .grid-item1{
@@ -33,6 +35,7 @@
     text-align: center;
     grid-column: 1;
     grid-row: 2/4;
+    font-size: 35px;
 }
 
 .grid-item2{
@@ -43,6 +46,8 @@
     text-align: center;
     grid-column: 2;
     grid-row: 2/4;
+    font-size: 35px;
+
 }
 
 .grid-item3{
@@ -53,6 +58,8 @@
     text-align: center;
     grid-column: 3;
     grid-row: 2/4;
+    font-size: 35px;
+
 }
 .grid-item4{
     background-color: #182b49;
@@ -62,6 +69,8 @@
     text-align: center;
     grid-column: 4;
     grid-row: 2/4;
+    font-size: 35px;
+
 }
 ul {
     list-style-type: none;
@@ -69,7 +78,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: white;
-    width: 100%;
+
 }
 
 li {
@@ -101,15 +110,15 @@ li a:hover {
 }
 
 #Section1 {
-    scroll-margin-top: 200px;
+    scroll-margin-top: 198px;
 }
 
 #Section2 {
-    scroll-margin-top: 200px;
+    scroll-margin-top: 198px;
 }
 
 #Section3 {
-    scroll-margin-top: 200px;
+    scroll-margin-top: 198px;
 }
 
 @media screen and (max-width: 800px) {
@@ -143,5 +152,5 @@ li a:hover {
     .grid-item4{
         grid-area: 3/2;
     }
-    
+
 }
