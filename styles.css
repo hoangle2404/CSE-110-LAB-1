@@ -1,20 +1,17 @@
 .s1{
     background-color: rgb(245, 240, 230); 
     display: inline-block;
-    scroll-margin-top: 250px;
 }
 .s2{
     background-image: url(https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg);
     color: white;
     display: grid;
-    scroll-margin-top: 250px;
 
 }
 
 .grid-container{
     background-color: rgb(245, 240, 230); 
     display: inline-grid;
-    scroll-margin-top: 250px;
     column-gap: 25px;
     grid-template-columns: repeat(4, 1fr);
 
@@ -93,4 +90,16 @@ li a:hover {
 
 #navbar image {
     max-width: 400px;
+}
+
+#Section1 {
+    scroll-margin-top: 200px;
+}
+
+#Section2 {
+    scroll-margin-top: 200px;
+}
+
+#Section3 {
+    scroll-margin-top: 200px;
 }
